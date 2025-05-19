@@ -14,19 +14,14 @@ conda env create -f env.yml
 
 ## Training
 
-lstm_continuous_action_ppo.py is the training script:
+Use **`lstm_continuous_action_ppo.py`** to launch training. Key CLI flags:
 
-ent_coef - Policy entropy coefficient 
-
-starting_beta - Initial state entropy coefficient
-
-beta - Final state entropy coeficient
-
-beta_decay -state entropy intrinsic reward discount factor
-
-ent_coef_decay -whether to linearly decay the policy entropy to 0 throught training
-
-num_envs - the number of parallel game environments dictates the number of roolouts per update, state entropy estimation
+- **`--ent_coef`** – policy-entropy coefficient.
+- **`--starting_beta`** – initial state-entropy coefficient.
+- **`--beta`** – final state-entropy coefficient (where `starting_beta` decays to).
+- **`--beta_decay`** – discount factor for the state-entropy intrinsic reward.
+- **`--ent_coef_decay`** – linearly anneal `ent_coef` to 0 over the course of training (boolean switch).
+- **`--num_envs`** – number of parallel environments; also sets the number of rollouts per PPO update and the batch size used for state-entropy estimation.
 
 
 ## Evaluation
