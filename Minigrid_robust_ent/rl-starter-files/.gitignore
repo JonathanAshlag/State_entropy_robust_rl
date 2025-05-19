@@ -1,0 +1,16 @@
+*__pycache__
+*egg-info
+.vscode
+rl-starter-files/storage
+rl-starter-files/storage_old
+.ipynb
+.gif
+.png
+rl-starter-files/scripts/Evaluations2
+rl-starter-files/scripts/Evaluations
+rl-starter-files/scripts/STORAGE
+rl-starter-files/scripts/figures
+rl-starter-files/scripts/STORAGE_NEW
+#ignore wandb:
+.wandb
+.logs
