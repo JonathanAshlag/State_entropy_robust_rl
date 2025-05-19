@@ -8,8 +8,12 @@ Please install below packages in a following order:
 ### rl-starter-files
 
 ```
-cd rl-starter-files/rl-starter-files
-pip3 install -r requirements.txt
+cd Minigrid_robust_rl
+conda env create -f environment.yml
+conda activate vcse_env
+conda install -c conda-forge "gym>=0.18.0,<0.19.0"
+cd rl-starter-files/rl-starter-files/
+pip install -r requirements.txt
 ```
 
 ### gym_minigrid
