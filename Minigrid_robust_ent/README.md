@@ -27,6 +27,7 @@ git clone https://github.com/Farama-Foundation/Minigrid.git
 cd Minigrid
 git checkout 116fa65bf9584149f9a23c2b61c95fd84c25e467
 pip3 install -e .
+pip install minigrid
 ```
 
 ### torch-ac
@@ -41,7 +42,10 @@ pip3 install -e .
 ```
 conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
-
+### wandb
+```
+pip install wandb
+```
 ## Reproducing our main results
 
 ```
