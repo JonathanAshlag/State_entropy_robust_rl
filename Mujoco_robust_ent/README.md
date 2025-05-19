@@ -26,7 +26,7 @@ Use **`lstm_continuous_action_ppo.py`** to launch training. Key CLI flags:
 
 ## Evaluation
 
-The wall expirement is Eval_pusher_wall. To train and evaluate a policy run:
+The wall expirement is **`lstm_continuous_action_ppo.py`**. To train and evaluate a policy run:
 
 ```eval
 bash train_and_evaluate.sh
