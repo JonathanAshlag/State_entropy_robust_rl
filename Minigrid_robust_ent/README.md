@@ -1,6 +1,10 @@
-# Maximum Value-Conditional State Entropy Exploration for Sample-Efficient Deep Reinforcement Learning
+# Minigrid robust state entropy experiments
 
-Thank you for reviewing our source code! We provide the instruction for reproducting our main results below:
+This repo is based on the paper: Maximum Value-Conditional State Entropy Exploration for Sample-Efficient Deep Reinforcement Learning 
+
+available at https://sites.google.com/view/rl-vcse
+
+(note we dont use the value conditioning in our experiments)
 
 ## Installation
 Please install below packages in a following order:
