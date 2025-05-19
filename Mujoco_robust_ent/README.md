@@ -16,11 +16,16 @@ conda env create -f env.yml
 
 lstm_continuous_action_ppo.py is the training script:
 
-ent_coef - Policy entropy coefficient
+ent_coef - Policy entropy coefficient 
+
 starting_beta - Initial state entropy coefficient
+
 beta - Final state entropy coeficient
+
 beta_decay -state entropy intrinsic reward discount factor
+
 ent_coef_decay -whether to linearly decay the policy entropy to 0 throught training
+
 num_envs - the number of parallel game environments dictates the number of roolouts per update, state entropy estimation
 
 
