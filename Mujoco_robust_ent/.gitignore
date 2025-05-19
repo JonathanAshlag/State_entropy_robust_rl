@@ -1,0 +1,19 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+venv/
+
+# Ignore system files
+.DS_Store
+
+# Ignore logs and outputs
+*.log
+wandb/
+#Ignore saved models
+pusher_puck/
+runs_puck_alpha/
+runs_puck_alpha_decay/
+runs_puck_final/
+runs_reccurent/
+figs/
+vidoes/
