@@ -4,7 +4,7 @@ import torch
 from torch_ac.utils.penv import ParallelEnv
 import numpy as np
 import utils
-from utils.custom_env2 import EmptyEnv
+from utils.custom_env import EmptyEnv
 from tqdm import tqdm
 
 # Parse arguments
