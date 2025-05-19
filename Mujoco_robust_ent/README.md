@@ -1,16 +1,16 @@
 
 
-# State Entropy Regularization For Robust RL
+# Continuous-Control State-Entropy Regularization for Robust RL
 
-This repository is the official implementation of [State Entropy Regularization For Robust RL], subbmited to Neurips 2025.
+This repository builds on the PPO implementation from **CleanRL**.
+
+---
 
 ## Requirements
 
-To install requirements:
-
-```setup
+```bash
 conda env create -f env.yml
-```
+
 
 ## Training
 
@@ -26,7 +26,7 @@ Use **`lstm_continuous_action_ppo.py`** to launch training. Key CLI flags:
 
 ## Evaluation
 
-The wall expirement is **`lstm_continuous_action_ppo.py`**. To train and evaluate a policy run:
+The “wall” experiment uses **'Eval_pusher_wall.py'**. To train and evaluate:
 
 ```eval
 bash train_and_evaluate.sh
