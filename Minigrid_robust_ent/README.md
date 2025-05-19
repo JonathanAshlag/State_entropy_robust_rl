@@ -4,7 +4,7 @@ This repo is based on the paper: Maximum Value-Conditional State Entropy Explora
 
 available at https://sites.google.com/view/rl-vcse
 
-(note we dont use the value conditioning in our experiments)
+(note we do not use the value conditioning in our experiments)
 
 ## Installation
 Please install below packages in a following order:
