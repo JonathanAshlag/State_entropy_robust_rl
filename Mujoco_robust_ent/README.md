@@ -2,7 +2,7 @@
 
 # Continuous-Control State-Entropy Regularization for Robust RL
 
-This repository builds on the PPO implementation from **CleanRL**.
+This repository builds on the PPO implementation from **CleanRL** available at  https://github.com/vwxyzjn/cleanrl.
 
 ---
 
