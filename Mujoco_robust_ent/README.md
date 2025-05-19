@@ -19,7 +19,7 @@ Use **`lstm_continuous_action_ppo.py`** to launch training. Key CLI flags:
 - **`--ent_coef`** – policy-entropy coefficient.
 - **`--starting_beta`** – initial state-entropy coefficient.
 - **`--beta`** – final state-entropy coefficient (where `starting_beta` decays to).
-- **`--beta_decay`** – discount factor for the state-entropy intrinsic reward.
+- **`--beta_discount`** – discount factor for the state-entropy intrinsic reward.
 - **`--ent_coef_decay`** – linearly anneal `ent_coef` to 0 over the course of training (boolean switch).
 - **`--num_envs`** – number of parallel environments; also sets the number of rollouts per PPO update and the batch size used for state-entropy estimation.
 
