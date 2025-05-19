@@ -40,20 +40,15 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.2 -c pytorch -c nvi
 
 ## Reproducing our main results
 
-### A2C
 ```
-cd rl-starter-files/rl-stater-files
-source run_original.sh
+cd State_entropy_robust_rl/Minigrid_robust_ent
+bash run_a2c.sh
 ```
+This script trains and evaluates three variants:
+No regularization
 
-### A2C+SE
-```
-cd rl-starter-files/rl-stater-files
-source run_sent.sh
-```
+Policy-entropy regularization
 
-### A2C+VCSE
-```
-cd rl-starter-files/rl-stater-files
-source run_vcse.sh
-```
+State-entropy regularization
+
+If you are logged in to Weights & Biases (wandb login), all metrics and plots will be uploaded automatically.
